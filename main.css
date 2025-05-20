@@ -1,0 +1,266 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+
+.sidebar {
+  width: 250px;
+  background-color: #fff;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar .profile {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile ul {
+  display: flex;
+}
+
+.img{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 0;
+  cursor: pointer;
+  color: #333;
+}
+
+.sidebar ul li:hover {
+  background-color: #f0f0f0;
+}
+
+.quick-links {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.header ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 20px; */
+}
+
+.header li{
+  gap: 20px;
+}
+
+.save-password-box {
+  width: 400px;
+  height: 1s00px;
+  border: none;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 15px 17px 10px -4px rgba(0,0,0,0.49);
+  margin-bottom: 100px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items:center; */
+  top: 0;
+  left: 0;
+  transform: translate(55%, 10%);
+}
+
+.save-password-box strong{
+  display: flex;
+  align-items: start;
+}
+
+.save-password-box p{
+  display: flex;
+  align-items: center;
+}
+
+.save-password-box .buttons {
+  margin-top: 10px;
+}
+
+.save-password-box button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-password-box .ok {
+  background-color: #1877f2;
+  color: white;
+}
+
+.save-password-box .not-now {
+  background-color: #e4e6eb;
+  color: #000;
+}
+
+/* Status yozish qutisi */
+.status-box {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.status-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.status-box .options button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #e7f3ff;
+  color: #1877f2;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.status-box .options button:hover {
+  background-color: #d0e7ff;
+}
+
+/* Hikoyalar */
+.stories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.story {
+  background-color: #fff;
+  padding: 10px;
+  width: 150px;
+  height: 180px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 15px 17px 10px -4px rgba(0,0,0,0.49);
+  gap: 20px;
+  cursor: pointer;
+}
+.demo{
+  width: 40px;
+  height: 40px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  transform: translate(-80%, -420%);
+
+}
+
+.log{
+  border: none;
+  border-radius: 20px;
+  width: 150px;
+  height: 180px;
+  margin-right: 10px;
+}
+
+.story p {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 15px 17px 10px -4px rgba(0,0,0,0.49);
+  top: 0;
+  left: 0;
+  transform: translate(0%, -70%);
+}
+
+.story button{
+  width: 30px;
+  height: 30px;
+  border-radius:50% ;
+  background-color: #1877f2;
+  border: 2px solid white;
+  top: 0;
+  left: 0;
+  transform: translate(40%, -500%);
+}
+
+.story:hover {
+  background-color: #f5f6f7;
+}
+
+/* O'ng menyu - Right sidebar */
+.right-sidebar {
+  width: 350px;
+  background-color: #fff;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+}
+
+.ads  {
+  background-color: #f5f6f7;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.ad > img{
+  width: 100px;
+  height: 100px;
+}
+
+.friend-request {
+  margin-top: 20px;
+}
+
+.friend-request button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.friend-request button:first-child {
+  background-color: #1877f2;
+  color: white;
+}
+
+.friend-request button:last-child {
+  background-color: #e4e6eb;
+}
+
+.contacts {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #555;
+}

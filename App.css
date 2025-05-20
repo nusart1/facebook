@@ -1,0 +1,267 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.open-button{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(850%, 3000%);
+    z-index: 1;
+}
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(400%, 500%);
+    z-index: 1000;
+} */
+
+
+
+/* .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .open-button, .close-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    margin: 100px auto;
+    width: 300px;
+    border-radius: 8px;
+  }
+   */
+
+  /* Vxod qismi */
+  
+  /* *{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.register-container{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .logo{
+    color: #1877f2;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .register-card{
+    width: 350px;
+    height: 100hv;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .row{
+    display: flex;
+    gap: 10px;
+    border:none;
+  }
+
+  .row{
+    display: flex;
+    gap: 10px;
+    border:1px solid grey;
+  }
+
+  .gender-row{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .input{
+    flex: 1;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px 0px;
+    border-radius:5px;
+    border: 1px solid grey;
+  }
+
+  .select{
+    flex: 1;
+    padding: 10px;
+    border-radius:5px;
+    border:#ccc;
+  }
+    
+  .input-full {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+  
+  .submit-btn {
+    padding: 10px;
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .link {
+    color: #1877f2;
+    cursor: pointer;
+    margin-top: 10px;
+  } */ 
+
+
+
+  /* App.css */
+
+/* body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #00ffe0;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #aaa;
+}
+
+.center {
+  text-align: center;
+}
+
+.hero h1 {
+  color: #fff;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  opacity: 0.5;
+  margin-top: 40px;
+}
+
+.logo-item {
+  font-size: 16px;
+  color: #ccc;
+  font-weight: 600;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.section-title span {
+  color: #00ffe0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: #111;
+  padding: 30px 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 255, 255, 0.05);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.team-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #00ffe0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+} */
